@@ -6,6 +6,8 @@
     <title>Páginas com os clientes</title>
 </head>
 <body>
-    <h1>Página com os clientes</h1>
+    <h1>clientes</h1>
+    <b>ID: {{$id}} <br> </b>
+    <b> Nome: {{$usuario}} </b>
 </body>
 </html>

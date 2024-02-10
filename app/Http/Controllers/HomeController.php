@@ -9,6 +9,14 @@ class HomeController extends Controller
 {
     //
     public function index(){
-        echo "Recebendo dados...";
+        $id = '4';
+        $usuario = 'Ana Beatriz';
+
+        $dados = [
+            'id' => $id,
+            'usuario' => $usuario
+        ];
+
+        return view('home', $dados);
     }
 }
