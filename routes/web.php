@@ -21,3 +21,6 @@ Route::get('/clientes', function () {
     echo "Páginas com os clientes cadastrados";
 });
 
+Route::get('/clientes/{codigo}', function ($codigo) {
+    echo "Essa é a pagina do cliente ".$codigo;
+});
