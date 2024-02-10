@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo "Ola mundo!!!";
+    return view('home');
 });
 
 Route::get('/clientes', function () {
