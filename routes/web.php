@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    echo "Ola mundo!!!";
 });
+
+Route::get('/clientes', function () {
+    echo "Páginas com os clientes cadastrados";
+});
+
