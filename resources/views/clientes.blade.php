@@ -1,16 +1,15 @@
-<form method = "get">
-    <b>Nome: </b> <input type="text" name="cliente"> <br>
-    <b>Email: </b> <input type="email" name="email"> <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+<body>
+    
+    <label>Cliente: {{$cliente}}</label> 
+    <label>Email: {{$email}}</label>
 
-    <br>
+</body>
+</html>
 
-    <input type="submit" value="Salvar">
-
-</form>
-
-<hr><br>
-<hr>
-
-
-<label>Cliente: {{$cliente}}</label> 
-<label>Email: {{$email}}</label>

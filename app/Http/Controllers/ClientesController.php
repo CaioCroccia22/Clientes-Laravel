@@ -18,7 +18,7 @@ class ClientesController extends Controller
             $cliente = $request->input('cliente');
             $email = $request->input('email');
 
-            return view('cliente', ['cliente' => $cliente, 'email' => $email]);
+            return view('clientes', ['cliente' => $cliente, 'email' => $email]);
         } else {
             return response()->json(['error' => 'Cliente ou email ausentes'], 400);
         }
